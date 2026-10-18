@@ -29,4 +29,3 @@ def create_report(data_file_name: str, report_file_name: str) -> None:
         writer.writerow(["supply", supply])
         writer.writerow(["buy", buy])
         writer.writerow(["result", result])
-
